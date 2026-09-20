@@ -1,0 +1,43 @@
+{
+  "name": "@tifra/wa-multistep",
+  "version": "0.1.0",
+  "description": "A Web Awesome multi-step form controller",
+  "type": "module",
+  "main": "./dist/wa-multistep.cjs",
+  "module": "./dist/wa-multistep.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/wa-multistep.js",
+      "require": "./dist/wa-multistep.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --emitDeclarationOnly && vite build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@awesome.me/webawesome": ">=3"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "jsdom": "latest",
+    "tsup": "^8.5.1",
+    "typescript": "npm:@typescript/typescript6@^6.0.2",
+    "vite": "latest",
+    "vite-plugin-dts": "^5.1.1",
+    "vitest": "^5.0.1"
+  },
+  "packageManager": "pnpm@10.33.3+sha512.a19744364a7e248b92657a4ca5973f9354d21caf982579674b1c539f32c7420c47138ad8b1254df07aba9bc782d9b3029e3db34d5dbff974326eb74dac8ff489",
+  "dependencies": {
+    "vest": "^6.3.2",
+    "zod": "^4.6.5"
+  }
+}
