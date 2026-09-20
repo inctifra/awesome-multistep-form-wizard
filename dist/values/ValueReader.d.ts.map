@@ -1,0 +1,1 @@
+{"version":3,"file":"ValueReader.d.ts","sourceRoot":"","sources":["../../src/values/ValueReader.ts"],"names":[],"mappings":"AAAA,qBAAa,WAAW;IACtB,IAAI,CAAC,KAAK,EAAE,WAAW,GAAG,OAAO;IAiBjC,QAAQ,CAAC,MAAM,EAAE,WAAW,EAAE,GAAG,MAAM,CAAC,MAAM,EAAE,OAAO,CAAC;IAgBxD,QAAQ,CAAC,IAAI,EAAE,eAAe,GAAG,MAAM,CAAC,MAAM,EAAE,OAAO,CAAC;IAMxD,OAAO,CAAC,UAAU;CAKnB"}

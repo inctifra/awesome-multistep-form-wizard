@@ -1,0 +1,1 @@
+{"version":3,"file":"DefaultErrorRenderer.d.ts","sourceRoot":"","sources":["../../src/errors/DefaultErrorRenderer.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,aAAa,EAAE,eAAe,EAAE,MAAM,kBAAkB,CAAC;AAEvE,qBAAa,oBAAqB,YAAW,aAAa;IACxD,IAAI,CAAC,KAAK,EAAE,WAAW,EAAE,KAAK,EAAE,eAAe,GAAG,IAAI;IAUtD,KAAK,CAAC,KAAK,EAAE,WAAW,GAAG,IAAI;CAahC"}
